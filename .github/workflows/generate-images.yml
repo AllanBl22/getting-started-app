@@ -1,1 +1,10 @@
+name : package-getting-started-app
+on : [push]
+jobs:
+  package-getting-started-app:
+    run-on: ubuntu-latest
+    steps:
 
+    # Checkout le code
+    # Build image
+    # push sur dockerhub
