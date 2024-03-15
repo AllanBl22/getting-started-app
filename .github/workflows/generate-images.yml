@@ -2,7 +2,7 @@ name : package-getting-started-app
 on : [push]
 jobs:
   package-getting-started-app:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Not on Monday or Wednesday
       - uses: actions/checkout@v2
