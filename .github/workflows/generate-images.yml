@@ -7,6 +7,6 @@ jobs:
       - name: Not on Monday or Wednesday
       - uses: actions/checkout@v2
         
-    # Checkout le code
-    # Build image
-    # push sur dockerhub
+# Checkout le code
+# Build image
+# push sur dockerhub
