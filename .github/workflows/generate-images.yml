@@ -12,8 +12,8 @@ jobs:
       - name: Login to dockerHub
         uses: docker/login-action@v1
         with:
-          username: eazear
-          password: dckr_pat_OZdbPqAdn0lrnZX-JXnICLj_SHs
+          username: ${{ secrets.DOCKER_HUB_USERNAME }}
+          password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
 
      
 
